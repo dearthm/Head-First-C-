@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{521763C7-B30C-48BE-88A7-E0151DD3369F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sloppy Joes Arrays", "Sloppy Joes Arrays\Sloppy Joes Arrays.csproj", "{5F38EC29-CA30-4F08-8B01-724436139BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays Pg 166", "Arrays Pg 166\Arrays Pg 166.csproj", "{C652B551-2B1F-45B1-B7CE-C7564EC15F87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{521763C7-B30C-48BE-88A7-E0151DD3369F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{521763C7-B30C-48BE-88A7-E0151DD3369F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{521763C7-B30C-48BE-88A7-E0151DD3369F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F38EC29-CA30-4F08-8B01-724436139BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F38EC29-CA30-4F08-8B01-724436139BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F38EC29-CA30-4F08-8B01-724436139BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F38EC29-CA30-4F08-8B01-724436139BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C652B551-2B1F-45B1-B7CE-C7564EC15F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C652B551-2B1F-45B1-B7CE-C7564EC15F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C652B551-2B1F-45B1-B7CE-C7564EC15F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C652B551-2B1F-45B1-B7CE-C7564EC15F87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
