@@ -15,6 +15,7 @@ namespace WindowsFormsApplication1
 
         Elephant lLoyd;
         Elephant lucinda;
+
         public frmElephant()
         {
             InitializeComponent();
@@ -32,6 +33,22 @@ namespace WindowsFormsApplication1
         private void btnLucinda_Click(object sender, EventArgs e)
         {
             lucinda.WhoAmI();
+        }
+
+        private void btnSwap_Click(object sender, EventArgs e)
+        {
+            Elephant holder;
+            holder = lLoyd;
+            lLoyd = lucinda;
+            lucinda = holder;
+            MessageBox.Show("Objects swapped!...", "Elephant");
+        }
+
+        private void btnChange_Click(object sender, EventArgs e)
+        {
+            lLoyd = lucinda;
+            lLoyd.EarSize = 500;
+            lLoyd.WhoAmI();
         }
     }
 

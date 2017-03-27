@@ -31,6 +31,7 @@
             this.btnLloyd = new System.Windows.Forms.Button();
             this.btnLucinda = new System.Windows.Forms.Button();
             this.btnSwap = new System.Windows.Forms.Button();
+            this.btnChange = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLloyd
@@ -61,12 +62,24 @@
             this.btnSwap.TabIndex = 2;
             this.btnSwap.Text = "Swap";
             this.btnSwap.UseVisualStyleBackColor = true;
+            this.btnSwap.Click += new System.EventHandler(this.btnSwap_Click);
+            // 
+            // btnChange
+            // 
+            this.btnChange.Location = new System.Drawing.Point(99, 190);
+            this.btnChange.Name = "btnChange";
+            this.btnChange.Size = new System.Drawing.Size(75, 23);
+            this.btnChange.TabIndex = 3;
+            this.btnChange.Text = "Change";
+            this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // frmElephant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btnChange);
             this.Controls.Add(this.btnSwap);
             this.Controls.Add(this.btnLucinda);
             this.Controls.Add(this.btnLloyd);
@@ -83,6 +96,7 @@
         private System.Windows.Forms.Button btnLloyd;
         private System.Windows.Forms.Button btnLucinda;
         private System.Windows.Forms.Button btnSwap;
+        private System.Windows.Forms.Button btnChange;
     }
 }
 
