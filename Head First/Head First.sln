@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talker", "Talker\Talker.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{FFCF046C-2118-493C-8FE6-C34AC7CD8663}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{46CE56D0-AFC6-470B-8D2F-E011F5491C2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FFCF046C-2118-493C-8FE6-C34AC7CD8663}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFCF046C-2118-493C-8FE6-C34AC7CD8663}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFCF046C-2118-493C-8FE6-C34AC7CD8663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CE56D0-AFC6-470B-8D2F-E011F5491C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CE56D0-AFC6-470B-8D2F-E011F5491C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CE56D0-AFC6-470B-8D2F-E011F5491C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CE56D0-AFC6-470B-8D2F-E011F5491C2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
