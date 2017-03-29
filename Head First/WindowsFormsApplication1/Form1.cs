@@ -46,6 +46,7 @@ namespace WindowsFormsApplication1
 
         private void btnChange_Click(object sender, EventArgs e)
         {
+            lLoyd.Tellme("hello", lucinda);
             lLoyd = lucinda;
             lLoyd.EarSize = 500;
             lLoyd.WhoAmI();
@@ -61,6 +62,11 @@ namespace WindowsFormsApplication1
         public void WhoAmI()
         {
             MessageBox.Show("My ears are " + EarSize + " inches long.","My name is " + Name + " ...");
+        }
+
+        public void Tellme(string message, Elephant whoSaidIt)
+        {
+            MessageBox.Show(whoSaidIt.Name + " says " + message);
         }
 
     }
