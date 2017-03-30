@@ -15,7 +15,7 @@ namespace WindowsFormsApplication1
 
         Elephant lLoyd;
         Elephant lucinda;
-
+         
         public frmElephant()
         {
             InitializeComponent();
@@ -47,6 +47,7 @@ namespace WindowsFormsApplication1
         private void btnChange_Click(object sender, EventArgs e)
         {
             lLoyd.Tellme("hello", lucinda);
+            lLoyd.SpeakTo(lucinda, "Hi there!");
             lLoyd = lucinda;
             lLoyd.EarSize = 500;
             lLoyd.WhoAmI();
@@ -67,6 +68,11 @@ namespace WindowsFormsApplication1
         public void Tellme(string message, Elephant whoSaidIt)
         {
             MessageBox.Show(whoSaidIt.Name + " says " + message);
+        }
+
+        public void SpeakTo(Elephant whoToTalkTo,string message)
+        {
+            whoToTalkTo.Tellme(message, this);
         }
 
     }
