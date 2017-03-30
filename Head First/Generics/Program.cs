@@ -31,7 +31,8 @@ namespace Generics
             Pair<string, string> p3 = new Pair<string, string> { First = "Suzy",Second="Bob" };
             Pair<string, string> p4 = new Pair<string, string> { First = "Suzy",Second="Bill" };
 
-            Console.WriteLine(p4.ToString());
+            Console.WriteLine(p1.ToString());
+            Console.ReadKey();
         }
     }
 }

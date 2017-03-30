@@ -22,10 +22,12 @@ namespace Casting
                 
                 Console.WriteLine("Conversion was succesful!");
                 Console.WriteLine("Number is " + outNum);
+                Console.ReadKey();
             }
             else
             {
                 Console.WriteLine("Conversion failed!");
+                Console.ReadKey();
             }
 
 
