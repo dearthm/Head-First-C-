@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingGame", "TypingGame\TypingGame.csproj", "{762C95C5-F4E3-4D18-A497-63377F801077}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BouncingLabels", "BouncingLabels\BouncingLabels.csproj", "{122DC692-4C3D-4B40-A58A-FEBF3E5ABFAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{762C95C5-F4E3-4D18-A497-63377F801077}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762C95C5-F4E3-4D18-A497-63377F801077}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762C95C5-F4E3-4D18-A497-63377F801077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122DC692-4C3D-4B40-A58A-FEBF3E5ABFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122DC692-4C3D-4B40-A58A-FEBF3E5ABFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122DC692-4C3D-4B40-A58A-FEBF3E5ABFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122DC692-4C3D-4B40-A58A-FEBF3E5ABFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
